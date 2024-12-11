@@ -1,0 +1,32 @@
+.slider .list .item .content .about{
+    height: 50vh;
+    width: 40vw;
+    
+    overflow:scroll;
+   
+    
+        background: rgba(39, 39, 39, 0.2); /* Semi-transparent background */
+        backdrop-filter: blur(10px); /* Creates the frosted glass effect */
+        -webkit-backdrop-filter: blur(10px); /* For better compatibility with WebKit browsers */
+        border: 1px solid rgba(255, 255, 255, 0); /* Subtle border to enhance the effect */
+        border-radius: 20px; /* Smooth corners */
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+        padding: 20px; /* Inner padding */
+        color: rgb(229, 229, 229); /* Text color */
+ 
+   
+    
+}
+.slider .list .item .content .about::-webkit-scrollbar{
+    width: 0;
+    
+}
+
+@media screen and (max-width: 678px){
+    h1{
+        font-size: 20px;
+    }
+    .slider .list .item .content .about{
+        width: 60vw;
+    }
+}

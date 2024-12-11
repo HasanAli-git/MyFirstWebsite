@@ -1,0 +1,7 @@
+.slider .list .item.active p svg{
+    color: black;
+    padding-right: 10px;
+}
+.slider .list .item a{
+    position: absolute;
+}
